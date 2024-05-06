@@ -1,1 +1,3 @@
 .direnv/
+angular-language-server/node_modules/
+result

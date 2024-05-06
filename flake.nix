@@ -56,6 +56,7 @@
           default = with pkgs;
             mkShell {
               inherit (self'.checks.pre-commit-check) shellHook;
+              buildInputs = with pkgs; [nodejs_20 yarn angularls];
             };
         };
       };
