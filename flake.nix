@@ -25,10 +25,8 @@
       ];
 
       perSystem = {
-        pkgs,
         system,
         self',
-        lib,
         ...
       }: let
         pkgs = nixpkgs.legacyPackages.${system};
